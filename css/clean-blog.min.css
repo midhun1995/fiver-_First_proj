@@ -5919,7 +5919,7 @@ body {
 			Footer Style					
 ============================================= */
 .hb-footer {
-  background: #f5f5f9;
+  background: #484848;
 }
 
 /* =============================================
@@ -5940,22 +5940,22 @@ body {
 .hb-col .hb-logo {
   width: 100%;
   padding: 0;
-  margin: 0 0 18px;
+  margin: 10px 0 18px;
 }
 
 .hb-col .hb-timeandday {
   padding: 0;
   width: 100%;
-  color: #7a7992;
+  color: #fff;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0 0 30px;
 }
 
 .hb-col h3 {
   font-size: 16px;
   line-height: 19px;
-  color: #2d2c40;
+  color: #fff;
   font-weight: 500;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -5966,7 +5966,7 @@ body {
   line-height: 19px;
   width: 100%;
   float: left;
-  color: #2d2c40;
+  color: #fff;
   font-weight: 600;
   padding: 0 0 20px;
 }
@@ -5976,7 +5976,7 @@ body {
 }
 
 .hb-col .hb-info li span {
-  color: #2d2c40;
+  color: #fff;
   display: block;
   font-weight: 600;
   line-height: 20px;
@@ -5985,7 +5985,7 @@ body {
 .hb-col .hb-info li span em {
   font-size: 14px;
   line-height: 17px;
-  color: #7a7992;
+  color: #fff;
   display: block;
   font-weight: 300;
   padding: 7px 0 0;
@@ -5993,14 +5993,14 @@ body {
 }
 
 .hb-col .hb-info li span a {
-  color: #7a7992;
+  color: #fff;
   padding: 7px 0 0;
   font-weight: 300;
 }
 
 .hb-col .hb-description {
   font-size: 14px;
-  color: #7a7992;
+  color: #fff;
 }
 
 /* =============================================
@@ -6673,14 +6673,16 @@ body {
   position: absolute;
   margin: 0 0 0 -110px;
   border-radius: 100%;
-  border: 10px solid rgba(225, 225, 225, 0.7);
+ border: 8px solid rgba(233, 158, 213, 0.4); 
 }
 
 .hb-serviceimg img {
   display: block;
   margin: 0 auto;
   border-radius: 100%;
+
 }
+
 
 .hb-imagecontent {
   top: 50%;
@@ -9910,18 +9912,21 @@ body {
 /* Custom CSS */
 
 .ac-label {
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
   padding: .5em 1em;
   margin-bottom: .5em;
   display: block;
   cursor: pointer;
-  background-color: whiteSmoke;
+  padding:15px 15px;
+  color: #fff;
+  background-color:  rgb(233, 158, 213);
   transition: background-color .15s ease-in-out;
 }
 
 .ac-input:checked + label, .ac-label:hover {
-  background-color: #999;
+  background-color:  rgb(211, 136, 191)   ;
+  
 }
 
 .ac-label:after, .ac-input:checked + .ac-label:after {
@@ -9930,7 +9935,7 @@ body {
   display: block;
   right: 0;
   top: 0;
-  width: 2em;
+  width: 4em;
   height: 100%;
   line-height: 2.25em;
   text-align: center;
@@ -10089,6 +10094,32 @@ img { border: 0; max-width: 100%; }
   margin: 0 auto;
   padding-bottom: 35px;
  
+}
+.container {
+  max-width: 100%;
+  background: #ddd9db  ;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+.menuheading {
+  
+  max-width: 100%;
+  
+}
+.headbar {
+  
+  max-width: 100%;
+  padding: 5px 5px;
+  color: rgb(54, 114, 204);
+  
+  
+  
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 #w header {

@@ -14,7 +14,8 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -33,9 +34,8 @@
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/bg1e.jpg')">
     <div class="overlay"></div>
-    <div class="container">
-        <div class="container">
-            <img src="img/logo.png" style="width: 30%" class="center">
+   
+            <img src="img/logo.png" style="max-width: 30%" class="center">
             </div>
           </div>
       <div class="row">
@@ -68,7 +68,7 @@
       </div>
     </div>
   </header>
-  <div class="container">
+  <div style="max-width: 100%;">
       <div class="row">
         <div class=" col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
         </div>
@@ -108,13 +108,14 @@
       </div>
     </div>
   </div>
-  <section class="container">
+  <section class="menuheading">
       <br>
-      <br>
-      <div><h2 style="font-size: 25px;font-weight: 600;text-align: center">Meny</h2></div>
-  
+      <div class="headbar"><h2 style="font-size: 25px;font-weight: 600;text-align: center">Meny</h2></div>
+  </section>
+  <section>
+    <div class="container">
       <div class="ac">
-  
+         
         <input class="ac-input" id="ac-1" name="ac-1" type="checkbox" />
         <label class="ac-label" for="ac-1">Nytt set</label>
   
@@ -144,13 +145,15 @@
                     </tr>
                     </table> 
           </div>
+        
         </article>
         <!--/ac-text-->
       </div>
       <!--/ac-->
       <div class="ac">
   
-        <input class="ac-input" id="ac-4" name="ac-4" type="checkbox" />
+        <input class="ac-input"  id="ac-4" name="ac-4" type="checkbox" />
+        <span class="icon ion-sad" ></span>
         <label class="ac-label" for="ac-4">Återbesök</label>
   
         <article class="ac-text">
@@ -165,62 +168,61 @@
                       <td style="text-align:right">500:-</td>
                       </tr>
                     </table> 
-                    </div>
+                  </div>
+                
+                </article>
+                <!--/ac-text-->
               </div>
-          </div>
-        </article>
         <!--/ac-text-->
-      </div>
-
-      <div class="ac">
+        <div class="ac">
   
-          <input class="ac-input" id="ac-7" name="ac-7" type="checkbox" />
-          <label class="ac-label" for="ac-7">Nagelvård</label>
-    
-          <article class="ac-text">
-    
-            <div class="ac-sub">
-              <input class="ac-input" id="ac-8" name="ac-8" type="checkbox" />
-              <!-- <label class="ac-label" for="ac-5">I also love regular donuts</label> -->
-              <div class="col-xs-12 col-sm-12 col-md-12">
-                  <table class="hoverTable" >
-                      <tr>
-                        <td>Vanlig manikyr Dam & Herr</td>
-                        <td style="text-align:right">200:-(Borttagning av utväxt nagelband, lätt polering, olja, lotion)</td>
-                        </tr>
-                      </table> 
-                      </div>
-                </div>
-            </div>
-          </article>
-          <!--/ac-text-->
-        </div>
-      <!--/ac-->
-      <div class="ac">
-  
-          <input class="ac-input" id="ac-10" name="ac-10" type="checkbox" />
-          <label class="ac-label" for="ac-10">Tilläggsservice</label>
-    
-          <article class="ac-text">
-    
-            <div class="ac-sub">
-              <input class="ac-input" id="ac-11" name="ac-11" type="checkbox" />
-              <!-- <label class="ac-label" for="ac-5">I also love regular donuts</label> -->
-              <div class="col-xs-12 col-sm-12 col-md-12">
-                  <table class="hoverTable" >
-                      <tr>
-                          <td>Borttagning </td>
-                          <td style="text-align:right">200:- (Ingår vid nytt set)</td>
+            <input class="ac-input" id="ac-7" name="ac-7" type="checkbox" />
+            <label class="ac-label" for="ac-7">Nagelvård</label>
+      
+            <article class="ac-text">
+      
+              <div class="ac-sub">
+                <input class="ac-input" id="ac-9" name="ac-9" type="checkbox" />
+                <!-- <label class="ac-label" for="ac-5">I also love regular donuts</label> -->
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <table class="hoverTable" >
+                        <tr>
+                          <td>Vanlig manikyr Dam & Herr</td>
+                          <td style="text-align:right">200:-(Borttagning av utväxt nagelband, lätt polering, olja, lotion)</td>
                           </tr>
-                      </table> 
+                        </table> 
                       </div>
-                </div>
-            </div>
-          </article>
-          <!--/ac-text-->
-        </div>
+                    
+                    </article>
+                    <!--/ac-text-->
+                  </div>
+            <!--/ac-text-->
+            <div class="ac">
   
-  
+                <input class="ac-input" id="ac-11" name="ac-11" type="checkbox" />
+                <label class="ac-label" for="ac-11">Tilläggsservice</label>
+          
+                <article class="ac-text">
+          
+                  <div class="ac-sub">
+                    <input class="ac-input" id="ac-12" name="ac-12" type="checkbox" />
+                    <!-- <label class="ac-label" for="ac-5">I also love regular donuts</label> -->
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <table class="hoverTable" >
+                            <tr>
+                              <td>Borttagning</td>
+                              <td style="text-align:right">200:- (Ingår vid nytt set)</td>
+                              </tr>
+                            </table> 
+                          </div>
+                        
+                        </article>
+                        <!--/ac-text-->
+                      </div>
+                <!--/ac-text-->
+              </div>
+      </div>
+    </div>
     </section>
 
 
@@ -364,9 +366,9 @@
   </div>
   </section>
 
-  <footer id="hb-footer" class="hb-footer hb-haslayout">
-			<div class="hb-footer-area">
-				<div class="container">
+  <footer class="hb-footer hb-haslayout">
+			<!-- <div class="hb-footer-area"> -->
+				
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="hb-col">
@@ -453,6 +455,7 @@
   <link rel="shortcut icon" href="http://www.templatemonster.com/favicon.ico">
   <link rel="icon" href="http://www.templatemonster.com/favicon.ico">
   <script type="text/javascript" src="js/jquery.glide.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="vendor/css/ionicons-2.0.1/css/ionicons.min.css">
   <script type="text/javascript">
     $(function(){
       $('.slider').glide({
@@ -464,31 +467,7 @@
     });
     </script>
   <style>
-      .accordion {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-        transition: 0.5s;
-        }
-        
-        .active, .accordion:hover {
-        background-color: #ccc; 
-        }
-        
-        .panel {
-        
-        background-color: white;
-        overflow: hidden; 
-        
-        }
-        
-        .hoverTable{
+        /* .hoverTable{
             width:100%; 
             border-collapse:collapse; 
           }
@@ -496,11 +475,34 @@
             padding:7px;
             border: none;
             text-align: left;
+            background:#ddd9db;
+            color:black;
+            font-size:14px;
+            font-weight: 400;
+          } */
+          /* Define the default color for all the table rows */
+          /* .hoverTable tr{
+            
+            border:1px solid #ffffff
+          } */
+          /* Define the hover highlight color for the table row */
+          /* .hoverTable tr:hover {
+            background: rgb(243, 182, 227);
+          } */
+          .hoverTable{
+            width:100%; 
+            border-collapse:collapse; 
+          }
+          .hoverTable td{ 
+            padding:7px;
+            border: none;
+            text-align: left;
+            font-weight: bold;
           }
           /* Define the default color for all the table rows */
           .hoverTable tr{
-            background:#c0bfda;
-            border:1px solid #ffffff
+            background:#ddd9db;
+            border:none;
           }
           /* Define the hover highlight color for the table row */
           .hoverTable tr:hover {
